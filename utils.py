@@ -105,8 +105,8 @@ def optimized_binary_search(brownie, angle, min_pos=-4.0, max_pos=4.0, num_itera
     optimal_position = (min_pos + max_pos) / 2
     
     return {
-        'optimal_position': optimal_position,
-        'position_history': position_history,
-        'error_history': error_history,
-        'area_history': area_history
+         "optimal_position": optimal_position,
+        "position_history": position_history,
+        "error_history": error_history,
+        "area_history": area_history
     }
