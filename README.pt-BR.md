@@ -21,6 +21,7 @@ Os usuários enfrentam um duelo: **Intuição Humana vs. Precisão da Máquina.*
 1. **Modo Manual:** O usuário tenta encontrar o corte perfeito ajustando os controles de ângulo e posição.
 2. **Modo Algoritmo:** A máquina resolve o problema utilizando **Busca Binária**, demonstrando o poder da complexidade logarítmica ($O(\log n)$).
 3. **Modo Caos:** Substitui o brownie simples (5 vértices) por um polígono gerado aleatoriamente contendo **mais de 300+ vértices**.
+4. **IA Auto-Lock:** Um modo de assistência dinâmica onde a máquina calcula continuamente a posição do corte perfeito em tempo real enquanto você rotaciona a faca, visualizando o local geométrico da solução.
 
 ## 🧠 Conceitos Matemáticos
 

@@ -21,6 +21,7 @@ Users face a duel: **Human Intuition vs. Machine Precision.**
 1. **Manual Mode:** The user tries to find the perfect cut by adjusting the angle and position sliders.
 2. **Algorithm Mode:** The machine solves the problem using **Binary Search**, demonstrating the power of logarithmic complexity ($O(\log n)$).
 3. **Chaos Mode:** Replaces the simple brownie (5 vertices) with a randomly generated polygon containing **300+ vertices**.
+4. **AI Auto-Lock:** A dynamic assist mode where the machine continuously calculates the perfect cut position in real-time as you rotate the knife, visualizing the geometric locus of the solution.
 
 ## 🧠 Mathematical Concepts
 
