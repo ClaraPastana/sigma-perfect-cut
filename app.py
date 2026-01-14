@@ -65,7 +65,7 @@ audio_file_lose = open("assets/audios/perca.mp3", "rb")
 audio_bytes_lose = audio_file_lose.read()
 
 # --- PAGE CONFIGURATION ---
-st.set_page_config(page_title="Perfect Cut", layout="wide")
+st.set_page_config(page_title="Perfect Cut", layout="wide", page_icon="assets/logo NEMPA.png")
 localS = LocalStorage()
 
 # ADJUSTED CSS
@@ -473,6 +473,7 @@ else:
 
 # --- SIDEBAR (Counter and Credits) ---
 with st.sidebar:
+    st.image("assets/logo NEMPA.png", width="stretch")
     st.divider()
     
     st.markdown("### 🏆 The Team (NEMPA)")
