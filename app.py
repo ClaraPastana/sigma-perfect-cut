@@ -309,7 +309,7 @@ with col_right:
         # - ax.fill(x, y, alpha=0.6, fc="yellow", ec="black", lw=2, hatch="x")
        
         x, y = brownie.exterior.xy
-        ax.fill(x, y, alpha=0.5, fc="chocolate", ec="black", lw=2)
+        ax.fill(x, y, alpha=0.5, fc="#FF6B6B", ec="red", lw=1, hatch="/")
         
         # Visual Line
         
