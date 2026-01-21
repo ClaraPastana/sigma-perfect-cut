@@ -309,7 +309,7 @@ with col_right:
         # - ax.fill(x, y, alpha=0.6, fc="yellow", ec="black", lw=2, hatch="x")
        
         x, y = brownie.exterior.xy
-        ax.fill(x, y, alpha=0.5, fc="gray", ec="black", lw=2)
+        ax.fill(x, y, alpha=0.5, fc="chocolate", ec="black", lw=2)
         
         # Visual Line
         
@@ -454,7 +454,7 @@ else:
     ranking = eval(ranking_data)
     col_rank1, col_rank2 = st.columns(2)
     with col_rank1:
-        st.markdown("#### 🔥 Chaos Mode")
+        st.markdown("#### 🔥 Clara Mode")
         if len(ranking["chaos_mode"]) == 0:
             st.info("No scores submitted yet in Chaos Mode.")
         else:
