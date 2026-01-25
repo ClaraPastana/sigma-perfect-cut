@@ -92,7 +92,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- TITLE ---
-st.markdown("## Clara <small>(Human vs. Machine)</small>", unsafe_allow_html=True)
+st.markdown("## Clara <small>(Human vs. Human)</small>", unsafe_allow_html=True)
 
 # --- STATE (SESSION STATE) ---
 if "showed_result" not in st.session_state:
